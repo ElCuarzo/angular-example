@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos globales de Angular */
+
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opcional: estilos globales personalizados */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Mejora visual base */
+body {
+    background-color: #f9fafb;
+    /* gris claro tipo Tailwind */
+}
